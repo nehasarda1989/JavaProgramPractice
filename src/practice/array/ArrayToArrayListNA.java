@@ -1,21 +1,25 @@
 package practice.array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayToArrayListNA {
-	public static void main(String[] args) {
+	 public static void main(String args[]) {
+	      String[] array = {"a", "b", "c", "d", "e"};
 
-		int[] arr = { 12, 4, 67, 4, 23, 56, 56, 4, 78, 34, 12 };
-		ArrayToArrayListNA arrayList = new ArrayToArrayListNA();
-		arrayList.convertArrayToArrayList(arr);
-	}
+	      List<String> list = Arrays.asList(array);          
+	      System.out.println(list);
 
-	private void convertArrayToArrayList(int[] arr) {
+	      List<String> list1 = new ArrayList<String>();
+	      Collections.addAll(list1, array);
+	      System.out.println(list1);
 
-		List<int[]> al = Arrays.asList(arr);
-		for(int[] i:al) {
-			System.out.println(i.toString());
-		}
-	}
+	      List<String> list2 = new ArrayList<String>();
+	      for(String text:array) {
+	         list2.add(text);
+	      }
+	      System.out.println(list2);
+	   }  
 }
