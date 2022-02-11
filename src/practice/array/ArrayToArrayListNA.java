@@ -15,7 +15,7 @@ public class ArrayToArrayListNA {
 
 		List<int[]> al = Arrays.asList(arr);
 		for(int[] i:al) {
-			System.out.println(i);
+			System.out.println(i.toString());
 		}
 	}
 }
