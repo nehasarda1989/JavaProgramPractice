@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrayToArrayListNA {
+public class ArrayToArrayList {
 	 public static void main(String args[]) {
 	      String[] array = {"a", "b", "c", "d", "e"};
 
