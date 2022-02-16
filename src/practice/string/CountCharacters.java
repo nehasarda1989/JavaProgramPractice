@@ -12,12 +12,10 @@ public class CountCharacters {
 	private void countChars(String str) {
 		int count = 0;
 		for(int i=0; i<str.length(); i++) {
-			System.out.println(str.charAt(i));
 			if(str.charAt(i) != ' ') {
 				count++;
 			}
 		}
 		System.out.println("Number of characters in the strings are : " + count);
 	}
-
 }
