@@ -9,7 +9,7 @@ public class RemoveWhiteSpaces {
 	}
 
 	private void removeWhiteSpaces(String str) {
-		System.out.println(str.replaceAll(" ", ""));
+		System.out.println(str.replaceAll("\\s+", ""));
 	}
 
 
