@@ -1,11 +1,11 @@
 package practice.array;
 
-public class AscendingOrder {
+public class AscendingOrder_hashset {
 
 	public static void main(String[] args) {
 
 		int[] arr = { 12, 4, 67, 4, 23, 56, 56, 4, 78, 34, 12 };
-		AscendingOrder ascendingOrder = new AscendingOrder();
+		AscendingOrder_hashset ascendingOrder = new AscendingOrder_hashset();
 		ascendingOrder.getAscendingOrderArray(arr);
 	}
 

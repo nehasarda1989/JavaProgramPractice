@@ -12,17 +12,15 @@ public class AscendingOrderMultiArray {
 
 	private void getAscendingOrderArrays(int[] arr1, int[] arr2) {
 		int[] arr3 = new int[arr1.length + arr2.length];
-		int temp = 0, var;
+		int var;
 		for (int j = 0; j < arr1.length; j++) {
 			arr3[j] = arr1[j];
-			temp = j;
 		}
 		for (int j = 0; j < arr2.length; j++) {
-			arr3[temp + 1] = arr2[j];
-			temp++;
+			arr3[arr1.length+j] = arr2[j];
 		}
 
-		System.out.println("Combined array is : ");
+		//System.out.println("Combined ascending array is : ");
 		for (int i = 0; i < arr3.length; i++) {
 			for (int j = i + 1; j < arr3.length; j++) {
 				if (arr3[j] < arr3[i]) {
@@ -33,9 +31,9 @@ public class AscendingOrderMultiArray {
 			}
 		}
 
-		for (int j = 0; j < arr3.length; j++) {
-			System.out.print(" " + arr3[j]);
-		}
+//		for (int j = 0; j < arr3.length; j++) {
+//			System.out.print(arr3[j]+" ");
+//		}
 		
 		//Removing duplicates
 		for (int i = 0; i < arr3.length; i++) {

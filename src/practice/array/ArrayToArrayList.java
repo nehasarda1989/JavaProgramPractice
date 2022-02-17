@@ -21,5 +21,5 @@ public class ArrayToArrayList {
 	         list2.add(text);
 	      }
 	      System.out.println(list2);
-	   }  
+	   }
 }
