@@ -34,5 +34,11 @@ public class DuplicateWords {
 				System.out.println("Array element : " + s[i] + " ----------- " + frq[i] + " times.");
 			}
 		}
+		System.out.println("Only unique elements are : " );
+		for (int i = 0; i < s.length; i++) {
+			if (s[i] != "" && frq[i]==1) {
+				System.out.println("Array element : " + s[i] + " ----------- " + frq[i] + " times.");
+			}
+		}
 	}
 }
