@@ -20,7 +20,7 @@ public class AscendingOrderMultiArray {
 			arr3[arr1.length+j] = arr2[j];
 		}
 
-		//System.out.println("Combined ascending array is : ");
+		System.out.println("Combined ascending array is : ");
 		for (int i = 0; i < arr3.length; i++) {
 			for (int j = i + 1; j < arr3.length; j++) {
 				if (arr3[j] < arr3[i]) {
@@ -31,9 +31,9 @@ public class AscendingOrderMultiArray {
 			}
 		}
 
-//		for (int j = 0; j < arr3.length; j++) {
-//			System.out.print(arr3[j]+" ");
-//		}
+		for (int j = 0; j < arr3.length; j++) {
+			System.out.print(arr3[j]+" ");
+		}
 		
 		//Removing duplicates
 		for (int i = 0; i < arr3.length; i++) {
@@ -50,9 +50,9 @@ public class AscendingOrderMultiArray {
 				nArr[m++] = arr3[i];
 			}
 		}
-		System.out.println("\nArray after removing duplicates : ");
+		System.out.println("\n\nArray after removing duplicates : ");
 		for(int i =0; i<m;i++) {
-			System.out.print(" " + nArr[i]);
+			System.out.print(nArr[i]+" ");
 		}
 
 	}
