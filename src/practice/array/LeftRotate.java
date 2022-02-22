@@ -13,7 +13,7 @@ public class LeftRotate {
 		
 		for(int i=0; i<2;i++) {
 			int first = arr[0];
-			for(int j=0;j<arrLength-1; j++) {
+			for(int j=0;j<arr.length-1; j++) {
 				arr[j]=arr[j+1];
 			}
 			
