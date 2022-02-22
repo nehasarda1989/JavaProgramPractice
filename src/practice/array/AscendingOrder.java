@@ -1,6 +1,8 @@
 package practice.array;
 
 public class AscendingOrder {
+	
+	//AscendingOrderMultiArray asc = new AscendingOrderMultiArray();
 
 	public static void main(String[] args) {
 
